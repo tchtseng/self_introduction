@@ -1,28 +1,53 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="settings.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tseng's Website</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+
+<body>
+
+    <!-- 背景光暈 -->
     <div class="blur blue"></div>
     <div class="blur purple"></div>
     <div class="blur pink"></div>
 
+    <!-- 內容卡片 -->
+    <div class="card">
 
-        <h1>Tseng's own web page</h1>
-        <h2>Self Introduction:</h2>
-            <h3>Age:15</h3>
-            <h3>School:Minsheng Junior School</h3>
-            <h3>Grade:9th grade</h3>
-            <button onclick="document.location='graduation.html'">Click Here to look more about schools</button>
-        <h2>Hobbies:</h2>
-            <ol>
-                <li>playing music</li>
-                <li>watching baseball</li>
-                <li>drawing</li>
-            </ol>
-            <button onclick="document.location='baseball.html'">Click Here to looke more about baseball</button>
-        <footer>
-            <p>Now You are in: Main Page</p>
-        </footer>
-    </body>
+        <h1>Tseng's Own Web Page</h1>
+
+        <h2>Self Introduction</h2>
+
+        <h3>Age : 15</h3>
+        <h3>School : Minsheng Junior High School</h3>
+        <h3>Grade : 9th Grade</h3>
+
+        <button onclick="location.href='graduation.html'">
+            More About School
+        </button>
+
+        <h2>Hobbies</h2>
+
+        <ol>
+            <li>Playing Music</li>
+            <li>Watching Baseball</li>
+            <li>Drawing</li>
+        </ol>
+
+        <button onclick="location.href='baseball.html'">
+            More About Baseball
+        </button>
+
+    </div>
+
+    <footer>
+        Now You Are In : Main Page
+    </footer>
+
+</body>
+
 </html>
