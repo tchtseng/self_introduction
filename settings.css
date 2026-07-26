@@ -11,56 +11,11 @@ body{
 
     min-height:100vh;
 
-    color:white;
+    color:rgb(53, 45, 83);
 
     font-family:Inter,sans-serif;
-
-    overflow-x:hidden;
-
-    background:
-    radial-gradient(circle at 50% 18%,rgba(35,62,190,.35),transparent 38%),
-    radial-gradient(circle at 80% 80%,rgba(14,17,40,.6),transparent 60%),
-    #070707;
-
 }
 
-/* 光暈 */
-
-.blue{
-    background:#2563eb;
-}
-
-.purple{
-    background:#7c3aed;
-}
-
-.pink{
-    background:#db2777;
-}
-
-/* 中間玻璃卡片 */
-
-.card{
-
-    width:900px;
-
-    max-width:90%;
-
-    margin:60px auto;
-
-    padding:50px;
-
-    background:rgba(255,255,255,.08);
-
-    backdrop-filter:blur(20px);
-
-    border:1px solid rgba(255,255,255,.15);
-
-    border-radius:25px;
-
-    box-shadow:0 20px 40px rgba(0,0,0,.4);
-
-}
 
 /* 標題 */
 
@@ -145,19 +100,5 @@ footer{
     padding:20px;
 
     color:#ddd;
-
-}
-.background::after{
-
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-    radial-gradient(circle,
-    transparent 45%,
-    rgba(0,0,0,.65) 100%);
 
 }
