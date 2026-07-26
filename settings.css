@@ -11,3 +11,86 @@ footer {
     text-align: center;
     color: black;
 }
+body{
+
+    margin:0;
+
+    height:100vh;
+
+    overflow:hidden;
+
+    background:#09090b;
+
+    position:relative;
+
+}
+
+.bg1{
+
+    width:500px;
+    height:500px;
+
+    background:#5B7CFA;
+
+    border-radius:50%;
+
+    filter:blur(170px);
+
+    position:absolute;
+
+    top:-150px;
+    left:-150px;
+
+}
+
+.bg2{
+
+    width:450px;
+    height:450px;
+
+    background:#9C5BFF;
+
+    border-radius:50%;
+
+    filter:blur(180px);
+
+    position:absolute;
+
+    bottom:-120px;
+    right:-120px;
+
+}
+
+.bg3{
+
+    width:350px;
+    height:350px;
+
+    background:#ff6ec7;
+
+    border-radius:50%;
+
+    filter:blur(160px);
+
+    position:absolute;
+
+    top:35%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+}
+
+.content{
+
+    position:relative;
+
+    z-index:100;
+
+    color:white;
+
+    text-align:center;
+
+    margin-top:220px;
+
+}
