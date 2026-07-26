@@ -17,65 +17,25 @@ body{
     overflow-x:hidden;
 
     background:
-    radial-gradient(circle at 20% 20%,rgba(59,130,246,.35),transparent 30%),
-    radial-gradient(circle at 80% 70%,rgba(168,85,247,.35),transparent 35%),
-    radial-gradient(circle at 50% 90%,rgba(236,72,153,.25),transparent 30%),
-    #09090b;
+    radial-gradient(circle at 20% 20%, rgba(59,130,246,.18), transparent 35%),
+    radial-gradient(circle at 80% 70%, rgba(168,85,247,.18), transparent 35%),
+    radial-gradient(circle at 50% 90%, rgba(236,72,153,.12), transparent 30%),
+    linear-gradient(180deg,#030303,#09090b,#111827);
 
 }
 
 /* 光暈 */
 
-.blur{
-
-    position:fixed;
-
-    border-radius:50%;
-
-    filter:blur(180px);
-
-    opacity:.8;
-
-    z-index:-1;
-
-}
-
 .blue{
-
-    width:450px;
-    height:450px;
-
-    background:#3b82f6;
-
-    top:-150px;
-    left:-150px;
-
+    background:#2563eb;
 }
 
 .purple{
-
-    width:500px;
-    height:500px;
-
-    background:#8b5cf6;
-
-    right:-180px;
-    bottom:-180px;
-
+    background:#7c3aed;
 }
 
 .pink{
-
-    width:300px;
-    height:300px;
-
-    background:#ec4899;
-
-    top:45%;
-    left:50%;
-
-    transform:translate(-50%,-50%);
-
+    background:#db2777;
 }
 
 /* 中間玻璃卡片 */
