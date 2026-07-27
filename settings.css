@@ -5,8 +5,16 @@
     padding:0;
     box-sizing:border-box;
 }
-body {
-    background-color:#f0d9bdb3
+body{
+
+    background:
+
+    radial-gradient(circle at top,
+    #1d4ed8 0%,
+    transparent 35%),
+
+    #050505;
+
 }
 
 /* 標題 */
@@ -87,10 +95,10 @@ button:hover{
 
 footer{
 
-    text-align:center;
+    background:rgba(255,255,255,.04);
 
-    padding:20px;
+    backdrop-filter:blur(30px);
 
-    color:#f4b9fe;
+    border-top:1px solid rgba(255,255,255,.1);
 
 }
