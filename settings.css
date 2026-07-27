@@ -17,41 +17,35 @@ body{
 
 }
 
-/* 標題 */
-
 h1{
 
     text-align:center;
 
-    font-size:52px;
-
-    margin-bottom:40px;
+    font-size:72px;
 
 }
 
 h2{
 
-    margin-top:30px;
+    width:900px;
 
-    margin-bottom:15px;
+    margin:60px auto 20px;
 
 }
 
 h3{
 
-    margin:10px 0;
+    width:900px;
 
-    font-weight:normal;
+    margin:15px auto;
 
 }
 
-/* 清單 */
-
 ol{
 
-    margin-left:30px;
+    width:900px;
 
-    line-height:2;
+    margin:auto;
 
 }
 
