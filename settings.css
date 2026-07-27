@@ -9,11 +9,7 @@ body{
 
     background:
 
-    radial-gradient(circle at top,
-    #1d4ed8 0%,
-    transparent 35%),
-
-    #050505;
+    #300A6E;
 
 }
 
@@ -53,9 +49,7 @@ ol{
 
 button{
 
-    margin-top:20px;
-
-    margin-bottom:20px;
+    margin:20px 0 20px 50px;
 
     padding:14px 30px;
 
